@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import type { PortfolioSection } from '@/lib/types';
+import { imgSrc } from '@/lib/utils';
 
 interface Props {
   section: PortfolioSection;
@@ -12,7 +13,7 @@ export default function SectionCard({ section }: Props) {
       <div className="art-card relative aspect-[4/3] bg-surface overflow-hidden">
         {section.coverImage && (
           <Image
-            src={section.coverImage}
+            src={imgSrc(section.coverImage)}
             alt={section.title}
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-105"

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { getPortfolioConfig } from '@/lib/config';
+import { imgSrc } from '@/lib/utils';
 import {
   getArtPiece, getAllCategorySlugs, getAllPieceSlugs, getAdjacentPieces,
 } from '@/lib/content';
@@ -46,7 +47,7 @@ export default async function PiecePage({ params }: Props) {
 
       <div className="relative w-full max-h-[75vh] overflow-hidden rounded-card bg-surface mb-8">
         <Image
-          src={piece.image}
+          src={imgSrc(piece.image)}
           alt={piece.title || 'Art piece'}
           width={1200} height={900}
           className="w-full h-auto object-contain"

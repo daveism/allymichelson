@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { getFeaturedPieces } from '@/lib/content';
 import { getSiteConfig, getPortfolioConfig } from '@/lib/config';
+import { imgSrc } from '@/lib/utils';
 import ArtPieceCard from '@/components/ui/ArtPieceCard';
 
 export default async function HomePage() {
@@ -15,7 +16,7 @@ export default async function HomePage() {
       <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/site/hero.jpg"
+            src={imgSrc('/images/site/hero.jpg')}
             alt={`${site.title} hero artwork`}
             fill
             className="object-cover"
@@ -53,7 +54,7 @@ export default async function HomePage() {
             <Link key={section.slug} href={`/portfolio/${section.slug}`} className="no-underline group">
               <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
                 {section.coverImage && (
-                  <Image src={section.coverImage} alt={section.title} fill
+                  <Image src={imgSrc(section.coverImage)} alt={section.title} fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 768px) 50vw, 25vw" />
                 )}
