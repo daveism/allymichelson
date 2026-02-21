@@ -3,7 +3,7 @@ const nextConfig = {
   output: 'export',
   // Uncomment basePath for GitHub Pages (username.github.io/repo-name)
   // Remove when using a custom domain
-  // basePath: '/allymichelson',
+  basePath: '/allymichelson',
   images: {
     unoptimized: true,
   },
