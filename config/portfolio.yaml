@@ -1,0 +1,25 @@
+sections:
+  - slug: "2d"
+    title: "2D"
+    description: "Paintings, drawings, ink work, and sketchbook explorations"
+    coverImage: "/images/2d/2d-01.jpg"
+    contentDir: "content/portfolio/2d"
+    order: 1
+  - slug: "3d"
+    title: "3D"
+    description: "Metalsmithing, sculpture, shadow boxes, and installations"
+    coverImage: "/images/3d/3d-01.jpg"
+    contentDir: "content/portfolio/3d"
+    order: 2
+  - slug: "digital"
+    title: "Digital"
+    description: "3D renders, game environments, and digital compositions"
+    coverImage: "/images/digital/digital-01.png"
+    contentDir: "content/portfolio/digital"
+    order: 3
+  - slug: "tattoos"
+    title: "Tattoos"
+    description: "Tattoo designs and completed work"
+    coverImage: ""
+    contentDir: "content/portfolio/tattoos"
+    order: 4

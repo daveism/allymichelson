@@ -1,0 +1,19 @@
+items:
+  - label: "Home"
+    path: "/"
+  - label: "2D"
+    path: "/portfolio/2d"
+    isPortfolioCategory: true
+  - label: "3D"
+    path: "/portfolio/3d"
+    isPortfolioCategory: true
+  - label: "Digital"
+    path: "/portfolio/digital"
+    isPortfolioCategory: true
+  - label: "Tattoos"
+    path: "/portfolio/tattoos"
+    isPortfolioCategory: true
+  - label: "About"
+    path: "/about"
+  - label: "Contact"
+    path: "/contact"

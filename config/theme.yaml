@@ -1,0 +1,58 @@
+palette:
+  background: "#0a0a0a"
+  backgroundAlt: "#141414"
+  surface: "#1a1a1a"
+  textPrimary: "#e8e4df"
+  textSecondary: "#8a8580"
+  textMuted: "#5a5550"
+  accentPrimary: "#b5ff2b"
+  accentSecondary: "#ff6b35"
+  accentTertiary: "#7b68ee"
+  hover: "#c8ff57"
+  active: "#9ae600"
+  focus: "#b5ff2b40"
+  border: "#2a2a2a"
+  borderHover: "#3a3a3a"
+  error: "#ff4757"
+  success: "#2ed573"
+
+typography:
+  headingFont: "'Playfair Display', serif"
+  bodyFont: "'Inter', sans-serif"
+  accentFont: "'Space Grotesk', sans-serif"
+  headingWeight: "700"
+  bodyWeight: "400"
+  baseSize: "16px"
+
+buttons:
+  borderRadius: "2px"
+  paddingX: "1.5rem"
+  paddingY: "0.75rem"
+  textTransform: "uppercase"
+  letterSpacing: "0.1em"
+  primary:
+    background: "accentPrimary"
+    text: "background"
+    hoverBackground: "hover"
+  secondary:
+    background: "transparent"
+    text: "textPrimary"
+    border: "border"
+    hoverBorder: "accentPrimary"
+    hoverText: "accentPrimary"
+  ghost:
+    background: "transparent"
+    text: "textSecondary"
+    hoverText: "accentPrimary"
+
+cards:
+  borderRadius: "4px"
+  hoverScale: "1.03"
+  hoverShadow: "0 8px 32px rgba(181, 255, 43, 0.15)"
+  transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+
+layout:
+  maxWidth: "1400px"
+  navPosition: "left"
+  gridGap: "1rem"
+  sectionPadding: "4rem"
