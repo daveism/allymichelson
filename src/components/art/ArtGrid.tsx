@@ -15,7 +15,7 @@ export default function ArtGrid({ pieces }: Props) {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="columns-1 md:columns-2 lg:columns-3 gap-4 [&>*]:mb-4 [&>*]:break-inside-avoid">
       {pieces.map(piece => (
         <ArtPieceCard key={piece.slug} piece={piece} />
       ))}

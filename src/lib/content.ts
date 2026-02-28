@@ -9,7 +9,7 @@ import { getPortfolioConfig } from './config';
 const contentDir = path.join(process.cwd(), 'content');
 
 async function renderMarkdown(md: string): Promise<string> {
-  const result = await remark().use(html).process(md);
+  const result = await remark().use(html, { sanitize: false }).process(md);
   return result.toString();
 }
 

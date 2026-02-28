@@ -46,18 +46,19 @@ export default function Navigation({ items, siteTitle }: Props) {
           {siteTitle}
         </Link>
 
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 -mx-3">
           {items.map(item => (
             <Link
               key={item.path}
               href={item.path}
               onClick={() => setOpen(false)}
               className={`
-                font-accent text-sm tracking-widest uppercase py-2 no-underline
-                transition-colors duration-200
+                block w-full px-3 py-2 rounded
+                font-accent text-sm tracking-widest uppercase no-underline
+                transition-all duration-200
                 ${isActive(item.path)
-                  ? 'text-accent-primary'
-                  : 'text-text-secondary hover:text-text-primary'}
+                  ? 'text-accent-secondary bg-bg-alt'
+                  : 'text-text-secondary hover:text-accent-secondary hover:bg-bg-alt'}
               `}
             >
               {item.label}
@@ -66,7 +67,7 @@ export default function Navigation({ items, siteTitle }: Props) {
         </div>
 
         <div className="mt-auto mb-8">
-          <div className="w-16 h-0.5 bg-gradient-to-r from-accent-primary to-accent-secondary rounded" />
+          <div className="w-16 h-0.5 bg-gradient-to-r from-accent-primary via-accent-tertiary to-accent-secondary rounded" />
         </div>
       </nav>
 

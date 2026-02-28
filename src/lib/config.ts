@@ -69,6 +69,9 @@ export function getThemeCSSVars(): string {
     --font-heading-weight: ${ty.headingWeight};
     --font-body-weight: ${ty.bodyWeight};
     --font-base-size: ${ty.baseSize};
+    --font-h1-size: ${ty.h1Size};
+    --font-h2-size: ${ty.h2Size};
+    --font-subtitle-size: ${ty.subtitleSize};
     --card-radius: ${c.borderRadius};
     --card-hover-scale: ${c.hoverScale};
     --card-hover-shadow: ${c.hoverShadow};

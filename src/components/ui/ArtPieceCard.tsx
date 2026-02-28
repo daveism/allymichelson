@@ -14,12 +14,12 @@ export default function ArtPieceCard({ piece }: Props) {
       className="no-underline group"
     >
       <div className="art-card relative bg-surface overflow-hidden">
-        <div className="relative aspect-square">
+        <div className="relative">
           <Image
             src={imgSrc(piece.image)}
             alt={piece.title || 'Art piece'}
-            fill
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            width={800} height={800}
+            className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
             loading="lazy"
           />

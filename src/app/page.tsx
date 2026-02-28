@@ -29,7 +29,7 @@ export default async function HomePage() {
           <p className="font-accent text-sm md:text-base text-white/70 tracking-[0.3em] uppercase">
             2D &middot; 3D &middot; Digital &middot; Tattoos
           </p>
-          <div className="mt-6 w-24 h-0.5 mx-auto bg-gradient-to-r from-accent-primary to-accent-secondary rounded" />
+          <div className="mt-6 w-24 h-0.5 mx-auto bg-gradient-to-r from-accent-primary via-accent-tertiary to-accent-secondary rounded" />
         </div>
       </section>
 

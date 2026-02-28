@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 @layer base {
   body {
@@ -19,6 +19,9 @@
     font-weight: var(--font-heading-weight);
     color: var(--color-text-primary);
   }
+  h1 { font-size: var(--font-h1-size); }
+  h2 { font-size: var(--font-h2-size); }
+  h3, h4, h5, h6 { font-size: var(--font-subtitle-size); }
   a { color: var(--color-accent-primary); transition: color 0.2s ease; }
   a:hover { color: var(--color-hover); }
   ::selection { background: var(--color-accent-primary); color: var(--color-bg); }
@@ -66,11 +69,29 @@
     padding-left: 1rem; margin: 1.5rem 0;
     color: var(--color-text-secondary); font-style: italic;
   }
+  .prose-custom img {
+    width: 100%; height: auto; border-radius: var(--card-radius);
+    margin: 1.5rem 0;
+  }
+  .prose-custom .image-row {
+    display: grid; gap: 1rem; margin: 1.5rem 0;
+  }
+  .prose-custom .image-row.cols-2 { grid-template-columns: 1fr 1fr; }
+  .prose-custom .image-row.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .prose-custom .image-row img { margin: 0; }
+  @media (max-width: 640px) {
+    .prose-custom .image-row.cols-2,
+    .prose-custom .image-row.cols-3 { grid-template-columns: 1fr; }
+  }
+  .prose-custom .caption {
+    text-align: center; font-size: 0.875rem; color: var(--color-text-muted);
+    font-style: italic; margin-top: -1rem; margin-bottom: 1.5rem;
+  }
   .organic-line { position: relative; }
   .organic-line::after {
     content: ''; position: absolute; bottom: -4px; left: 0;
     width: 60px; height: 3px;
-    background: linear-gradient(90deg, var(--color-accent-primary), var(--color-accent-secondary));
+    background: linear-gradient(90deg, var(--color-accent-primary), var(--color-accent-tertiary), var(--color-accent-secondary));
     border-radius: 2px;
   }
 }
