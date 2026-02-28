@@ -11,7 +11,7 @@ export default function ArtPieceCard({ piece }: Props) {
   return (
     <Link
       href={`/portfolio/${piece.category}/${piece.slug}`}
-      className="no-underline group"
+      className="no-underline group relative z-0 hover:z-10"
     >
       <div className="art-card relative bg-surface overflow-hidden">
         <div className="relative">
@@ -19,7 +19,7 @@ export default function ArtPieceCard({ piece }: Props) {
             src={imgSrc(piece.image)}
             alt={piece.title || 'Art piece'}
             width={800} height={800}
-            className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-auto transition-transform duration-500 group-hover:scale-110"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
             loading="lazy"
           />

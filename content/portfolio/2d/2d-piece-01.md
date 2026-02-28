@@ -1,6 +1,6 @@
 ---
 title: "Title"
-description: "Description"
+description: "Short Description"
 image: "/images/2d/2d-01.jpg"
 category: "2d"
 tags: []

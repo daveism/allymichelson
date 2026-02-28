@@ -15,9 +15,11 @@ export default function ArtGrid({ pieces }: Props) {
   }
 
   return (
-    <div className="columns-1 md:columns-2 lg:columns-3 gap-4 [&>*]:mb-4 [&>*]:break-inside-avoid">
+    <div className="columns-1 md:columns-2 lg:columns-3 gap-4">
       {pieces.map(piece => (
-        <ArtPieceCard key={piece.slug} piece={piece} />
+        <div key={piece.slug} className="break-inside-avoid mb-2">
+          <ArtPieceCard piece={piece} />
+        </div>
       ))}
     </div>
   );
