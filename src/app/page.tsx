@@ -222,7 +222,7 @@ export default function HomePage() {
           {/* Section: Tattoos */}
           <Link href="/portfolio/tattoos" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
-               <Image src={imgSrc('/images/tattoos/Octopus1.png')} alt="Digital" fill
+               <Image src={imgSrc('/images/tattoos/Octopus1.jpg')} alt="Digital" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
