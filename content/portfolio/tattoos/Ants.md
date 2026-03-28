@@ -10,7 +10,9 @@ dimensions: "7 in x 6 in"
 featured: true
 order: 1
 ---
-
+<div class="image-row cols-1">
+  <img src="/images/Tattoos/Ants2.jpg" alt="Detail shot 1" />
+</div>
 
 <!-- ## Process example s-->
 
