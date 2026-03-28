@@ -1,7 +1,7 @@
 ---
 title: "Beetle"
 description: ""
-image: "/images/Tattoos/Beetle.jpg"
+image: "/images/Tattoos/Beetle 1 --Edit.jpg"
 category: "tattoos"
 tags: []
 date: "2026-02-21"
