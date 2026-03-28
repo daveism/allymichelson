@@ -1,22 +1,16 @@
 ---
-title: "Title"
-description: "Short Description"
+title: "Current"
+description: ""
 image: "/images/2d/2d-01.jpg"
 category: "2d"
 tags: []
-date: "2026-02-21"
-medium: "Medium"
-dimensions: "1x1"
+date: "2024"
+medium: "Ink on Mixed Media paper"
+dimensions: "9 in x 12 in"
 featured: true
 order: 1
 ---
 
-
-<div class="image-row cols-1">
-  <img src="/images/2d/2d-04.jpg" alt="Early sketch" />
-  <img src="/images/2d/2d-05.jpg" alt="Mid progress" />
-  <img src="/images/2d/2d-06.jpg" alt="Near final" />
-</div>
 
 <!-- <div class="image-row cols-1">
   <img src="/images/2d/2d-04.jpg" alt="Early sketch" />
