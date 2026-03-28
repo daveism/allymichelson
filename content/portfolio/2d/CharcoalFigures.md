@@ -13,7 +13,7 @@ order: 26
 ---
 
 <div class="image-row cols-1">
-  <img src="/images/2d/Best-Tonal.jpg" alt="Detail shot 1" />
-  <img src="/images/Gesture:Contour9.jpg" alt="Detail shot 2" />
-  <img src="/images/2d/CharcoalFigure.jpg" alt="Detail shot 3" />
+  <img src="/images/2d/Best-Tonal.jpeg" alt="Detail shot 1" />
+  <img src="/images/Gesture:Contour9.jpeg" alt="Detail shot 2" />
+  <img src="/images/2d/CharcoalFigure.jpeg" alt="Detail shot 3" />
 </div>
