@@ -1,7 +1,7 @@
 ---
 title: "Window"
 description: ""
-image: "/images/Tattoos/AllyWindow1.jpg"
+image: "/images/Tattoos/AllyWindow1.JPG"
 category: "tattoos"
 tags: []
 date: "2025"
