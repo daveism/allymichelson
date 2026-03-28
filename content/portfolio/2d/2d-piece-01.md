@@ -12,6 +12,17 @@ order: 1
 ---
 
 
+<div class="image-row cols-1">
+  <img src="/images/2d/2d-04.jpg" alt="Early sketch" />
+  <img src="/images/2d/2d-05.jpg" alt="Mid progress" />
+  <img src="/images/2d/2d-06.jpg" alt="Near final" />
+</div>
+
+<!-- <div class="image-row cols-1">
+  <img src="/images/2d/2d-04.jpg" alt="Early sketch" />
+  <div>Text</div>
+</div> -->
+
 <!-- ## Process example s-->
 
 <!-- This piece started as a series of rough sketches exploring organic forms. The goal was to capture movement and texture through layered mark-making.
