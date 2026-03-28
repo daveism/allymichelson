@@ -11,7 +11,7 @@ featured: true
 order: 1
 ---
 
-<div class="image-row cols-2">
+<div class="image-row cols-1">
   <img src="/images/Tattoos/Octopus2.jpg" alt="Detail shot 1" />
   <img src="/images/Tattoos/Octopus3.jpg" alt="Detail shot 2" />
   <img src="/images/Tattoos/Octopus4.jpg" alt="Detail shot 2" />
