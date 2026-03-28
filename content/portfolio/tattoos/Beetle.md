@@ -1,12 +1,12 @@
 ---
 title: "Beetle"
 description: ""
-image: "/images/Tattoos/Beetle 1 --Edit.jpg"
+image: "/images/Tattoos/Beetle 1--Edit.jpg"
 category: "tattoos"
 tags: []
-date: "2024"
+date: "2025"
 medium: "Black and Grey Ink"
-dimensions: "4 in x 2 in"
+dimensions: "6 in x 3 in"
 featured: true
 order: 1
 ---
