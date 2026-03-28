@@ -1,7 +1,7 @@
 ---
-title: "Ants"
+title: "Pisces"
 description: ""
-image: "/images/Tattoos/Ants1.jpg"
+image: "/images/Tattoos/Pisces 2.jpg"
 category: "tattoos"
 tags: []
 date: "2025"
