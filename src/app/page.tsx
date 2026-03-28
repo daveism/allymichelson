@@ -65,6 +65,7 @@ export default function HomePage() {
             </div>
           </Link>
       */}
+      
       <section className="px-8 py-16 max-w-layout mx-auto">
         <h2 className="font-heading text-3xl mb-2 organic-line">Featured Work</h2>
         <p className="text-text-secondary mb-10 mt-6">Selected pieces across all disciplines</p>
