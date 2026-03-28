@@ -1,12 +1,12 @@
 ---
-title: "Dragon"
+title: "Swirly"
 description: ""
-image: "/images/Tattoos/Bodie Dragon Fresh .jpg"
+image: "/images/Tattoos/Natalia2-Edit.jpg"
 category: "tattoos"
 tags: []
 date: "2025"
 medium: "Black and Grey Ink"
-dimensions: "4 in x 5 in"
+dimensions: "4 in x 4 in"
 featured: true
 order: 1
 ---
