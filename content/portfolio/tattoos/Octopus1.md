@@ -11,7 +11,11 @@ featured: true
 order: 1
 ---
 
-
+<div class="image-row cols-2">
+  <img src="/images/Tattoos/Octopus2.jpg" alt="Detail shot 1" />
+  <img src="/images/Tattoos/Octopus3.jpg" alt="Detail shot 2" />
+  <img src="/images/Tattoos/Octopus4.jpg" alt="Detail shot 2" />
+</div>
 <!-- ## Process example s-->
 
 <!-- This piece started as a series of rough sketches exploring organic forms. The goal was to capture movement and texture through layered mark-making.
