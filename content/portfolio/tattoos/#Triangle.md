@@ -1,5 +1,5 @@
 ---
-title: "# Triangle"
+title: "Triangle"
 description: ""
 image: "/images/Tattoos/Triangle2.jpg"
 category: "tattoos"
