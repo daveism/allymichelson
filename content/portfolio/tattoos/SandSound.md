@@ -1,19 +1,16 @@
 ---
-title: "Everglade"
+title: "Matches"
 description: ""
-image: "/images/Tattoos/Everglade1-Edit.jpg"
+image: "/images/Tattoos/Match.jpg"
 category: "tattoos"
 tags: []
 date: "2025"
 medium: "Black and Grey Ink"
-dimensions: "4 in x 3 in"
+dimensions: "1 in x 0.25 in"
 featured: true
 order: 1
 ---
 
-<div class="image-row cols-1">
-  <img src="/images/Tattoos/Everglade2-Edit.jpg" alt="Detail shot 1" />
-</div>
 
 <!-- ## Process example s-->
 
