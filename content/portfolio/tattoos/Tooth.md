@@ -1,18 +1,16 @@
 ---
-title: "Ants"
+title: "Tooth"
 description: ""
-image: "/images/Tattoos/Ants1.jpg"
+image: "/images/Tattoos/Tooth1--Edit.jpg"
 category: "tattoos"
 tags: []
-date: ""
+date: "December 2025"
 medium: "Black and Grey Ink"
-dimensions: "7 in x 6 in"
+dimensions: "1 in x 0.25 in"
 featured: true
 order: 1
 ---
-<div class="image-row cols-1">
-  <img src="/images/Tattoos/Ants2.jpg" alt="Detail shot 1" />
-</div>
+
 
 <!-- ## Process example s-->
 

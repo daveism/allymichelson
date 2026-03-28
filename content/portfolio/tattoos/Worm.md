@@ -1,17 +1,18 @@
 ---
-title: "Ants"
+title: "Worm"
 description: ""
-image: "/images/Tattoos/Ants1.jpg"
+image: "/images/Tattoos/Worm1.jpg"
 category: "tattoos"
 tags: []
 date: ""
 medium: "Black and Grey Ink"
-dimensions: "7 in x 6 in"
+dimensions: ""
 featured: true
 order: 1
 ---
+
 <div class="image-row cols-1">
-  <img src="/images/Tattoos/Ants2.jpg" alt="Detail shot 1" />
+  <img src="/images/Tattoos/Worm2.jpg" alt="Detail shot 1" />
 </div>
 
 <!-- ## Process example s-->
