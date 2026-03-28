@@ -4,9 +4,9 @@ description: ""
 image: "/images/Tattoos/Ants1.jpg"
 category: "tattoos"
 tags: []
-date: "2026-02-21"
-medium: "Black and Grey"
-dimensions: "4 in x 2 in"
+date: "2025"
+medium: "Black and Grey Ink"
+dimensions: "7 in x 6 in"
 featured: true
 order: 1
 ---

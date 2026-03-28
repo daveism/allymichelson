@@ -4,8 +4,8 @@ description: ""
 image: "/images/Tattoos/Beetle 1 --Edit.jpg"
 category: "tattoos"
 tags: []
-date: "2026-02-21"
-medium: "Black and Grey"
+date: "2024"
+medium: "Black and Grey Ink"
 dimensions: "4 in x 2 in"
 featured: true
 order: 1

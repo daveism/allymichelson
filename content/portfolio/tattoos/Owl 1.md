@@ -4,7 +4,7 @@ description: ""
 image: "/images/Tattoos/Owl right--1.jpg"
 category: "tattoos"
 tags: []
-date: "2026-02-21"
+date: "2026"
 medium: "Medium"
 dimensions: "1x1"
 featured: true

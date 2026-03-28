@@ -4,7 +4,7 @@ description: ""
 image: "/images/Tattoos/AsterBee3--Edit.jpg"
 category: "tattoos"
 tags: []
-date: "2026-02-21"
+date: "2025"
 medium: "Black and Grey"
 dimensions: "4 in x 2 in"
 featured: true

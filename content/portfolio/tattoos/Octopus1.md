@@ -4,9 +4,9 @@ description: ""
 image: "/images/Tattoos/Octopus1.jpg"
 category: "tattoos"
 tags: []
-date: "2026-02-21"
-medium: "Medium"
-dimensions: "1x1"
+date: "2025"
+medium: "Black and Grey Ink"
+dimensions: "6 in x 3 in"
 featured: true
 order: 1
 ---

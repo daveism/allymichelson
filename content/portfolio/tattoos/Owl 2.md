@@ -4,9 +4,9 @@ description: ""
 image: "/images/Tattoos/Owl left--2.jpg"
 category: "tattoos"
 tags: []
-date: "2026-02-21"
-medium: "Medium"
-dimensions: "1x1"
+date: "2026"
+medium: "Black and Grey Ink"
+dimensions: "3 in x 2 in"
 featured: true
 order: 1
 ---
