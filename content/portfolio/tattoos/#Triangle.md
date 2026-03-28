@@ -1,7 +1,7 @@
 ---
 title: "# Triangle"
 description: ""
-image: "/images/Tattoos/#Triangle2.jpg"
+image: "/images/Tattoos/Triangle2.jpg"
 category: "tattoos"
 tags: []
 date: "2026-02-21"
