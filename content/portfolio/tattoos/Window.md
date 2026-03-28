@@ -5,8 +5,8 @@ image: "/images/Tattoos/AllyWindow1.jpg"
 category: "tattoos"
 tags: []
 date: "2025"
-medium: "Black and Grey"
-dimensions: "4 in x 2 in"
+medium: "Black and Grey Ink"
+dimensions: "3 in x 3 in"
 featured: true
 order: 1
 ---
