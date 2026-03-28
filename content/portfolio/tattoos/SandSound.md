@@ -1,7 +1,7 @@
 ---
-title: "Matches"
+title: "Sand Sound"
 description: ""
-image: "/images/Tattoos/Match.jpg"
+image: "/images/Tattoos/SandSound2.jpg"
 category: "tattoos"
 tags: []
 date: "2025"
@@ -11,6 +11,9 @@ featured: true
 order: 1
 ---
 
+<div class="image-row cols-1">
+  <img src="/images/Tattoos/SandSound1.jpg" alt="Detail shot 1" />
+</div>
 
 <!-- ## Process example s-->
 
