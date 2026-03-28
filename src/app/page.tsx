@@ -74,12 +74,12 @@ export default function HomePage() {
           {/* Featured piece 1: 2D */}
           <Link href="/portfolio/2d/2d-piece-01" className="no-underline group relative z-0 hover:z-10">
             <div className="art-card relative bg-surface overflow-hidden">
-              <div className="relative">
+              <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
                 <Image src={imgSrc('/images/2d/2d-01.jpg')} alt="Title"
-                  width={800} height={800}
-                  className="w-full h-auto transition-transform duration-500 group-hover:scale-110"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" loading="lazy" />
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
               </div>
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-all duration-300 flex items-end">
                 <div className="p-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
@@ -93,12 +93,12 @@ export default function HomePage() {
           {/* Featured piece 2: 3D */}
           <Link href="/portfolio/3d/3d-piece-01" className="no-underline group relative z-0 hover:z-10">
             <div className="art-card relative bg-surface overflow-hidden">
-              <div className="relative">
+              <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
                 <Image src={imgSrc('/images/3d/3d-01.jpg')} alt="3D piece"
-                  width={800} height={800}
-                  className="w-full h-auto transition-transform duration-500 group-hover:scale-110"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" loading="lazy" />
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
               </div>
             </div>
           </Link>
@@ -106,12 +106,12 @@ export default function HomePage() {
           {/* Featured piece 3: Digital */}
           <Link href="/portfolio/digital/digital-piece-01" className="no-underline group relative z-0 hover:z-10">
             <div className="art-card relative bg-surface overflow-hidden">
-              <div className="relative">
+              <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
                 <Image src={imgSrc('/images/digital/digital-01.png')} alt="Digital piece"
-                  width={800} height={800}
-                  className="w-full h-auto transition-transform duration-500 group-hover:scale-110"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" loading="lazy" />
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
               </div>
             </div>
           </Link>
@@ -119,12 +119,12 @@ export default function HomePage() {
           {/* Featured piece 4: Digital */}
           <Link href="/portfolio/digital/digital-piece-01" className="no-underline group relative z-0 hover:z-10">
             <div className="art-card relative bg-surface overflow-hidden">
-              <div className="relative">
+              <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
                 <Image src={imgSrc('/images/tattoos/Ants1.jpg')} alt="Digital piece"
-                  width={800} height={800}
-                  className="w-full h-auto transition-transform duration-500 group-hover:scale-110"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" loading="lazy" />
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
               </div>
             </div>
           </Link>
