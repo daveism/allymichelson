@@ -69,7 +69,7 @@ export default function HomePage() {
       <section className="px-8 py-16 max-w-layout mx-auto">
         <h2 className="font-heading text-3xl mb-2 organic-line">Featured Work </h2>
         <p className="text-text-secondary mb-10 mt-6">Selected pieces across all disciplines</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
 
           {/* Featured piece 1: 2D */}
           <Link href="/portfolio/2d/2d-piece-01" className="no-underline group relative z-0 hover:z-10">
@@ -115,6 +115,20 @@ export default function HomePage() {
               </div>
             </div>
           </Link>
+
+          {/* Featured piece 4: Digital */}
+          <Link href="/portfolio/digital/digital-piece-01" className="no-underline group relative z-0 hover:z-10">
+            <div className="art-card relative bg-surface overflow-hidden">
+              <div className="relative">
+                {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
+                <Image src={imgSrc('/images/tattoos/Ants1.jpg')} alt="Digital piece"
+                  width={800} height={800}
+                  className="w-full h-auto transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" loading="lazy" />
+              </div>
+            </div>
+          </Link>
+
 
         </div>
       </section>
