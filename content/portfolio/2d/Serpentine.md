@@ -8,5 +8,5 @@ date: "2023"
 medium: "Acrylic paint on canvas"
 dimensions: "22 in x 28 in"
 featured: false
-order: 10
+order: 18
 ---
