@@ -1,7 +1,7 @@
 ---
 title: "Star Window"
 description: ""
-image: "/images/Tattoos/ScoutWindwow Healed--Edit.jpg"
+image: "/images/Tattoos/ScoutWindow Healed--Edit.jpg"
 category: "tattoos"
 tags: []
 date: ""
@@ -12,7 +12,7 @@ order: 1
 ---
 
 <div class="image-row cols-1">
-  <img src="/images/Tattoos/ScoutWindwow Healed2--Edit.jpg" alt="Detail shot 1" />
+  <img src="/images/Tattoos/ScoutWindow Healed2--Edit.jpg" alt="Detail shot 1" />
 </div>
 
 <!-- ## Process example s-->
