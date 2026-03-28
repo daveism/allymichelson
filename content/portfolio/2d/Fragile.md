@@ -7,6 +7,7 @@ tags: []
 date: "2022"
 medium: "Ink on bristol paper"
 dimensions: "18 in x 24 in"
+showImage: true
 featured: false
 order: 21
 ---

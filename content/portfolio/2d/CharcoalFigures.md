@@ -7,6 +7,7 @@ tags: []
 date: "2023"
 medium: "Charcoal on news print paper"
 dimensions: "Various dimensions"
+showImage: true
 featured: false
 order: 26
 ---

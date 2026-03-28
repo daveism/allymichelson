@@ -7,6 +7,7 @@ tags: []
 date: "2026"
 medium: "Medium"
 dimensions: "1x1"
+showImage: true
 featured: true
 order: 1
 ---

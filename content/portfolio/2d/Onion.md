@@ -7,6 +7,7 @@ tags: []
 date: "2023"
 medium: "Charcoal, graphite, and chalk pastels on paper"
 dimensions: "40 in x 26.5 in"
+showImage: true
 featured: false
 order: 27
 ---

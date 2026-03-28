@@ -7,6 +7,7 @@ tags: []
 date: "2024"
 medium: "Ink on Mixed Media paper"
 dimensions: "9 in x 12 in"
+showImage: true
 featured: true
 order: 1
 ---

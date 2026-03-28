@@ -7,6 +7,7 @@ tags: []
 date: "2026"
 medium: "Black and Grey Ink"
 dimensions: "3 in x 2 in"
+showImage: true
 featured: true
 order: 1
 ---

@@ -7,6 +7,7 @@ tags: []
 date: "2024"
 medium: "Acrylic on canvas"
 dimensions: "16 in x 4 in"
+showImage: true
 featured: false
 order: 7
 ---

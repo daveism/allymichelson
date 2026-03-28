@@ -7,6 +7,7 @@ tags: []
 date: ""
 medium: "Black and Grey Ink"
 dimensions: ""
+showImage: true
 featured: true
 order: 1
 ---

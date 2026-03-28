@@ -7,6 +7,7 @@ tags: []
 date: "2023"
 medium: "Acrylic paint on canvas"
 dimensions: "22 in x 28 in"
+showImage: true
 featured: false
 order: 18
 ---

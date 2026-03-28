@@ -7,6 +7,7 @@ tags: []
 date: "2024"
 medium: "Acrylic paint on mixed media paper"
 dimensions: "7 in x 11 in"
+showImage: true
 featured: false
 order: 11
 ---

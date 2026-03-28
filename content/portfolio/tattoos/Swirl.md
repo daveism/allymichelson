@@ -7,6 +7,7 @@ tags: []
 date: "2025"
 medium: "Black and Grey Ink"
 dimensions: "4 in x 4 in"
+showImage: true
 featured: true
 order: 1
 ---

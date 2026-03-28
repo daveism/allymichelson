@@ -41,6 +41,7 @@ export interface ArtPiece {
   medium: string;
   dimensions: string;
   featured: boolean;
+  showImage: boolean;
   order: number;
   content: string;
 }

@@ -7,6 +7,7 @@ tags: []
 date: "2023"
 medium: "Charcoal and pastel on toned paper"
 dimensions: "Various dimension"
+showImage: true
 featured: false
 order: 25
 ---

@@ -7,6 +7,7 @@ tags: []
 date: "2024"
 medium: "pen and india ink on mixed media paper"
 dimensions: "11 in x 14 in"
+showImage: true
 featured: false
 order: 6
 ---

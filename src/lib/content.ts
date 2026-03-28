@@ -41,6 +41,7 @@ export async function getArtPiecesByCategory(category: string): Promise<ArtPiece
       medium: data.medium || '',
       dimensions: data.dimensions || '',
       featured: data.featured || false,
+      showImage: data.showImage !== false,
       order: data.order || 999,
       content: renderedContent,
     });

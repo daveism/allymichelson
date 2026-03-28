@@ -7,6 +7,7 @@ tags: []
 date: "2026-02-21"
 medium: "Pen and india ink on mixed media paper"
 dimensions: "11 in x 14 in"
+showImage: true
 featured: false
 order: 10
 ---

@@ -7,6 +7,7 @@ tags: []
 date: "2024"
 medium: "Acrylic paint on canvas and basswood"
 dimensions: "20 in x 24 in"
+showImage: true
 featured: false
 order: 14
 ---

@@ -7,6 +7,7 @@ tags: []
 date: "2024"
 medium: "Rives BFK paper, India ink, acrylic paint, pen Dura-Lar plastic, mod podge"
 dimensions: "30 in x 22 in"
+showImage: true
 featured: false
 order: 4
 ---

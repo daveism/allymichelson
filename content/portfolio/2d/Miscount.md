@@ -7,6 +7,7 @@ tags: []
 date: "2024"
 medium: "Acrylic paint on Dura-Lar plastic"
 dimensions: "31 in x 18 in x 4 in"
+showImage: true
 featured: false
 order: 2
 ---

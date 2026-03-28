@@ -7,6 +7,7 @@ tags: []
 date: "2023"
 medium: "Acrylic on wood panel"
 dimensions: "12 in x 24 in"
+showImage: true
 featured: false
 order: 20
 ---

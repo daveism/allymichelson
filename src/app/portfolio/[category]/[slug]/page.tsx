@@ -47,34 +47,33 @@ export default async function PiecePage({ params }: Props) {
 
       {/* Title */}
       {piece.title && (
-        <h1 className="font-heading text-text-primary text-3xl md:text-4xl mb-4">{piece.title}</h1>
+        <h1 className="font-heading text-text-primary mb-4">{piece.title}</h1>
       )}
 
-      {/* Subtitle: medium, dimensions, date as labeled fields */}
-      {(piece.medium || piece.dimensions || piece.date) && (
-        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-x-8 gap-y-2 text-sm font-accent mb-8">
-          {piece.medium && (
-            <span><strong className="text-text-primary">Medium:</strong>{' '}<span className="text-text-secondary">{piece.medium}</span></span>
-          )}
-          {piece.dimensions && (
-            <span><strong className="text-text-primary">Dimensions:</strong>{' '}<span className="text-text-secondary">{piece.dimensions}</span></span>
-          )}
-          {piece.date && (
-            <span><strong className="text-text-primary">Date:</strong>{' '}<span className="text-text-secondary">{new Date(piece.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span></span>
-          )}
+      {/* Details: plain text, each on its own line */}
+      {piece.medium && (
+        <p className="text-text-secondary text-sm mb-1">{piece.medium}</p>
+      )}
+      {piece.dimensions && (
+        <p className="text-text-secondary text-sm mb-1">{piece.dimensions}</p>
+      )}
+      {piece.date && (
+        <p className="text-text-secondary text-sm">{new Date(piece.date).getFullYear()}</p>
+      )}
+      <div className="mb-8" />
+
+      {/* Main image — controlled by showImage in frontmatter (default: true, set to false to hide) */}
+      {piece.showImage && (
+        <div className="relative w-full rounded-card overflow-hidden mb-8">
+          <Image
+            src={imgSrc(piece.image)}
+            alt={piece.title || 'Art piece'}
+            width={1200} height={900}
+            className="w-full h-auto"
+            priority
+          />
         </div>
       )}
-
-      {/* Main image */}
-      <div className="relative w-full rounded-card overflow-hidden mb-8">
-        <Image
-          src={imgSrc(piece.image)}
-          alt={piece.title || 'Art piece'}
-          width={1200} height={900}
-          className="w-full h-auto"
-          priority
-        />
-      </div>
 
       {/* Description */}
       {piece.description && (
