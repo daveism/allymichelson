@@ -8,5 +8,5 @@ date: "2024"
 medium: "Acrylic on canvas"
 dimensions: "18 in x 18 in"
 featured: false
-order: 5
+order: 8
 ---

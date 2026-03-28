@@ -8,5 +8,5 @@ date: "2026-02-21"
 medium: "Pen, graphite, and India ink on Rives BFK paper"
 dimensions: 22.5 in x 25 in"
 featured: false
-order: 18
+order: 9
 ---
