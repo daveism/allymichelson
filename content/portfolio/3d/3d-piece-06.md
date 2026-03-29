@@ -6,7 +6,7 @@ category: "3d"
 tags: []
 date: "2024"
 medium: "Steel, nickel, copper tubing"
-dimensions: "18 in x 7 in x 6.5 in"
+dimensions: ""
 showImage: true
 featured: true
 order: 6

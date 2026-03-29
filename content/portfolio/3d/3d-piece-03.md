@@ -6,7 +6,7 @@ category: "3d"
 tags: []
 date: "2023"
 medium: "Sterling silver"
-dimensions: "1 in x 1.25 in"
+dimensions: ""
 showImage: true
 featured: true
 order: 3
