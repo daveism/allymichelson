@@ -6,7 +6,7 @@ cvDownload: "/documents/ally-michelson-cv.pdf"
 
 ## About Me
 
-Ally Michelson is pursuing a BFA in Studio Art at Appalachian State University in Boone, North Carolina, focusing on metalsmithing and painting. Their work reflects on self-discovery and connections between barriers and personal understanding, exploring boundaries and the unknown through symbolism in windows, doors, stars, and numbers.
+Ally Michelson has BFA in Studio Art at Appalachian State University in Boone, North Carolina, where they focused on metalsmithing and painting. Their work reflects on self-discovery and connections between barriers and personal understanding, exploring boundaries and the unknown through symbolism in windows, doors, stars, and numbers.
 
 ## Artist Statement
 
