@@ -8,6 +8,6 @@ date: "2026-02-21"
 medium: ""
 dimensions: ""
 showImage: true
-featured: false
+featured: true
 order: 6
 ---
