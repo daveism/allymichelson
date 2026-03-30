@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { getSiteConfig } from '@/lib/config';
-import { imgSrc } from '@/lib/utils';
 
 export default function HomePage() {
   const site = getSiteConfig();
@@ -12,7 +11,7 @@ export default function HomePage() {
       <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src={imgSrc('/images/site/hero.jpg')}
+            src="/images/site/hero.jpg"
             alt={`${site.title} hero artwork`}
             fill
             className="object-cover"
@@ -50,11 +49,11 @@ export default function HomePage() {
         Example of a new featured card:
           <Link href="/portfolio/tattoos/tattoo-piece-01" className="no-underline group relative z-0 hover:z-10">
             <div className="art-card relative bg-surface overflow-hidden">
-              <div className="relative">
-                <Image src={imgSrc('/images/tattoos/tattoo-01.jpg')} alt="Tattoo Title"
-                  width={800} height={800}
-                  className="w-full h-auto transition-transform duration-500 group-hover:scale-110"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" loading="lazy" />
+              <div className="relative h-64 md:h-72">
+                <Image src="/images/tattoos/tattoo-01.jpg" alt="Tattoo Title"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
               </div>
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-all duration-300 flex items-end">
                 <div className="p-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
@@ -67,7 +66,7 @@ export default function HomePage() {
       */}
 
       <section className="px-8 py-16 max-w-layout mx-auto">
-        <h2 className="font-heading text-3xl mb-2 organic-line">Featured Work </h2>
+        <h2 className="font-heading text-3xl mb-2 organic-line">Featured Work</h2>
         <p className="text-text-secondary mb-10 mt-6">Selected pieces across all disciplines</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
 
@@ -76,7 +75,7 @@ export default function HomePage() {
             <div className="art-card relative bg-surface overflow-hidden">
               <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
-                <Image src={imgSrc('/images/2d/2d-01.jpg')} alt="Title"
+                <Image src="/images/2d/2d-01.jpg" alt="Title"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
@@ -95,7 +94,7 @@ export default function HomePage() {
             <div className="art-card relative bg-surface overflow-hidden">
               <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
-                <Image src={imgSrc('/images/3d/3d-01.jpg')} alt="3D piece"
+                <Image src="/images/3d/senior1.png" alt="3D piece"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
@@ -108,7 +107,7 @@ export default function HomePage() {
             <div className="art-card relative bg-surface overflow-hidden">
               <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
-                <Image src={imgSrc('/images/digital/digital-01.png')} alt="Digital piece"
+                <Image src="/images/digital/digital-01.png" alt="Digital piece"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
@@ -116,19 +115,18 @@ export default function HomePage() {
             </div>
           </Link>
 
-          {/* Featured piece 4: Digital */}
-          <Link href="/portfolio/digital/digital-piece-01" className="no-underline group relative z-0 hover:z-10">
+          {/* Featured piece 4: Tattoos */}
+          <Link href="/portfolio/tattoos/Ants" className="no-underline group relative z-0 hover:z-10">
             <div className="art-card relative bg-surface overflow-hidden">
               <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
-                <Image src={imgSrc('/images/tattoos/Ants1.jpg')} alt="Digital piece"
+                <Image src="/images/tattoos/Ants1.jpg" alt="Tattoo piece"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
               </div>
             </div>
           </Link>
-
 
         </div>
       </section>
@@ -163,7 +161,7 @@ export default function HomePage() {
         Example of a new section card:
           <Link href="/portfolio/mixed-media" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
-              <Image src={imgSrc('/images/mixed-media/cover.jpg')} alt="Mixed Media" fill
+              <Image src="/images/mixed-media/cover.jpg" alt="Mixed Media" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
@@ -181,7 +179,7 @@ export default function HomePage() {
           <Link href="/portfolio/2d" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
               {/* ✏️ UPDATE IMAGE: change path below to swap cover image */}
-              <Image src={imgSrc('/images/2d/2d-01.jpg')} alt="2D" fill
+              <Image src="/images/2d/2d-01.jpg" alt="2D" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
@@ -195,7 +193,7 @@ export default function HomePage() {
           <Link href="/portfolio/3d" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
               {/* ✏️ UPDATE IMAGE: change path below to swap cover image */}
-              <Image src={imgSrc('/images/3d/3d-01.jpg')} alt="3D" fill
+              <Image src="/images/3d/senior1.png" alt="3D" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
@@ -209,7 +207,7 @@ export default function HomePage() {
           <Link href="/portfolio/digital" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
               {/* ✏️ UPDATE IMAGE: change path below to swap cover image */}
-              <Image src={imgSrc('/images/digital/digital-01.png')} alt="Digital" fill
+              <Image src="/images/digital/digital-01.png" alt="Digital" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
@@ -222,7 +220,8 @@ export default function HomePage() {
           {/* Section: Tattoos */}
           <Link href="/portfolio/tattoos" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
-               <Image src={imgSrc('/images/tattoos/Octopus1.jpg')} alt="Digital" fill
+              {/* ✏️ UPDATE IMAGE: change path below to swap cover image */}
+              <Image src="/images/tattoos/Octopus1.jpg" alt="Tattoos" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />

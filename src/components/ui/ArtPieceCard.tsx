@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import type { ArtPiece } from '@/lib/types';
-import { imgSrc } from '@/lib/utils';
+
 
 interface Props {
   piece: ArtPiece;
@@ -16,7 +16,7 @@ export default function ArtPieceCard({ piece }: Props) {
       <div className="art-card relative bg-surface overflow-hidden">
         <div className="relative">
           <Image
-            src={imgSrc(piece.image)}
+            src={piece.image}
             alt={piece.title || 'Art piece'}
             width={800} height={800}
             className="w-full h-auto transition-transform duration-500 group-hover:scale-110"

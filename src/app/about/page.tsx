@@ -12,7 +12,7 @@ export default async function AboutPage() {
     <div className="px-8 py-16 max-w-3xl mx-auto">
       {about.profileImage && (
         <div className="relative w-48 h-48 rounded-full overflow-hidden mb-8 mx-auto border-2 border-border">
-          <Image src={imgSrc(about.profileImage)} alt="Profile" fill className="object-cover" priority />
+          <Image src={about.profileImage} alt="Profile" fill className="object-cover" priority />
         </div>
       )}
       <div className="prose-custom" dangerouslySetInnerHTML={{ __html: about.content }} />
