@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { getSiteConfig } from '@/lib/config';
+import { imgSrc } from '@/lib/utils';
 
 export default function HomePage() {
   const site = getSiteConfig();
@@ -11,7 +12,7 @@ export default function HomePage() {
       <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/site/hero.jpg"
+            src={imgSrc('/images/site/hero.jpg')}
             alt={`${site.title} hero artwork`}
             fill
             className="object-cover"
@@ -41,11 +42,12 @@ export default function HomePage() {
 
         To change which piece appears:
         - Update the href, image src, alt, title, and description for that card
+        - Wrap image paths with imgSrc() so they work in both dev and production
 
         To add a new featured piece:
         - Copy one of the <Link>...</Link> blocks below and update:
             href     → /portfolio/{category}/{slug}
-            src      → the image path from the piece's .md frontmatter
+            src      → imgSrc('/images/...') using the image path from the piece's .md frontmatter
             alt/h4   → piece title
             p        → piece description (optional, remove the <p> if none)
 
@@ -56,16 +58,10 @@ export default function HomePage() {
           <Link href="/portfolio/tattoos/tattoo-piece-01" className="no-underline group relative z-0 hover:z-10">
             <div className="art-card relative bg-surface overflow-hidden">
               <div className="relative h-64 md:h-72">
-                <Image src="/images/tattoos/tattoo-01.jpg" alt="Tattoo Title"
+                <Image src={imgSrc('/images/tattoos/tattoo-01.jpg')} alt="Tattoo Title"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
-              </div>
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-all duration-300 flex items-end">
-                <div className="p-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-                  <h4 className="font-heading text-lg text-white mb-1">Tattoo Title</h4>
-                  <p className="text-xs text-white/70 line-clamp-2">Optional description</p>
-                </div>
               </div>
             </div>
           </Link>
@@ -81,7 +77,7 @@ export default function HomePage() {
             <div className="art-card relative bg-surface overflow-hidden">
               <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
-                <Image src="/images/2d/2d-01.jpg" alt="Title"
+                <Image src={imgSrc('/images/2d/2d-01.jpg')} alt="Title"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
@@ -100,7 +96,7 @@ export default function HomePage() {
             <div className="art-card relative bg-surface overflow-hidden">
               <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
-                <Image src="/images/3d/senior1.png" alt="3D piece"
+                <Image src={imgSrc('/images/3d/senior1.png')} alt="3D piece"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
@@ -113,7 +109,7 @@ export default function HomePage() {
             <div className="art-card relative bg-surface overflow-hidden">
               <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
-                <Image src="/images/digital/digital-01.png" alt="Digital piece"
+                <Image src={imgSrc('/images/digital/digital-01.png')} alt="Digital piece"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
@@ -126,7 +122,7 @@ export default function HomePage() {
             <div className="art-card relative bg-surface overflow-hidden">
               <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
-                <Image src="/images/tattoos/Ants1.jpg" alt="Tattoo piece"
+                <Image src={imgSrc('/images/tattoos/Ants1.jpg')} alt="Tattoo piece"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
@@ -144,11 +140,12 @@ export default function HomePage() {
 
         To change a section's cover image:
         - Update the Image src for that section's block below
+        - Wrap image paths with imgSrc() so they work in both dev and production
 
         To add a new section:
         1. Copy one of the <Link>...</Link> blocks below and update:
              href  → /portfolio/{new-slug}
-             src   → cover image path (put image in public/images/{new-slug}/)
+             src   → imgSrc('/images/...') cover image path (put image in public/images/{new-slug}/)
              title → the section display name
         2. Add the section in config/portfolio.yaml so its listing page works:
              - slug: "mixed-media"
@@ -167,7 +164,7 @@ export default function HomePage() {
         Example of a new section card:
           <Link href="/portfolio/mixed-media" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
-              <Image src="/images/mixed-media/cover.jpg" alt="Mixed Media" fill
+              <Image src={imgSrc('/images/mixed-media/cover.jpg')} alt="Mixed Media" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
@@ -185,7 +182,7 @@ export default function HomePage() {
           <Link href="/portfolio/2d" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
               {/* ✏️ UPDATE IMAGE: change path below to swap cover image */}
-              <Image src="/images/2d/2d-01.jpg" alt="2D" fill
+              <Image src={imgSrc('/images/2d/2d-01.jpg')} alt="2D" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
@@ -199,7 +196,7 @@ export default function HomePage() {
           <Link href="/portfolio/3d" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
               {/* ✏️ UPDATE IMAGE: change path below to swap cover image */}
-              <Image src="/images/3d/senior1.png" alt="3D" fill
+              <Image src={imgSrc('/images/3d/senior1.png')} alt="3D" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
@@ -213,7 +210,7 @@ export default function HomePage() {
           <Link href="/portfolio/digital" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
               {/* ✏️ UPDATE IMAGE: change path below to swap cover image */}
-              <Image src="/images/digital/digital-01.png" alt="Digital" fill
+              <Image src={imgSrc('/images/digital/digital-01.png')} alt="Digital" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
@@ -227,7 +224,7 @@ export default function HomePage() {
           <Link href="/portfolio/tattoos" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
               {/* ✏️ UPDATE IMAGE: change path below to swap cover image */}
-              <Image src="/images/tattoos/Octopus1.jpg" alt="Tattoos" fill
+              <Image src={imgSrc('/images/tattoos/Octopus1.jpg')} alt="Tattoos" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
