@@ -122,7 +122,7 @@ export default function HomePage() {
             <div className="art-card relative bg-surface overflow-hidden">
               <div className="relative h-64 md:h-72">
                 {/* ✏️ UPDATE IMAGE: change path below to swap featured image */}
-                <Image src={imgSrc('/images/tattoos/Ants1.jpg')} alt="Tattoo piece"
+                <Image src={imgSrc('/images/Tattoos/Ants1.jpg')} alt="Tattoo piece"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" />
@@ -224,7 +224,7 @@ export default function HomePage() {
           <Link href="/portfolio/tattoos" className="no-underline group">
             <div className="relative aspect-square bg-surface rounded-card overflow-hidden art-card">
               {/* ✏️ UPDATE IMAGE: change path below to swap cover image */}
-              <Image src={imgSrc('/images/tattoos/Octopus1.jpg')} alt="Tattoos" fill
+              <Image src={imgSrc('/images/Tattoos/Octopus1.jpg')} alt="Tattoos" fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw" />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
