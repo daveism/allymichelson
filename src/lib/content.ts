@@ -10,7 +10,12 @@ const contentDir = path.join(process.cwd(), 'content');
 
 async function renderMarkdown(md: string): Promise<string> {
   const result = await remark().use(html, { sanitize: false }).process(md);
-  return result.toString();
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  let rendered = result.toString();
+  if (basePath) {
+    rendered = rendered.replace(/(src|href)="\/images\//g, `$1="${basePath}/images/`);
+  }
+  return rendered;
 }
 
 export async function getArtPiecesByCategory(category: string): Promise<ArtPiece[]> {
