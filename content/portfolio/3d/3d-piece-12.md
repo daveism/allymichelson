@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Onassis"
 description: ""
 image: "/images/3d/3d-12.jpeg"
 category: "3d"
