@@ -9,7 +9,7 @@ medium: "Black and Grey Ink"
 dimensions: "1.5 in x 1.5 in"
 showImage: true
 featured: true
-order: 1
+order: 6
 ---
 
 

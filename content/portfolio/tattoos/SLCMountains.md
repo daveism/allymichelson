@@ -9,7 +9,7 @@ medium: "Black and Grey Ink"
 dimensions: "7 in x 6 in"
 showImage: true
 featured: true
-order: 1
+order: 11
 ---
 <div class="image-row cols-1">
   <img src="/images/Tattoos/SaltLakeMnt1.jpg" alt="Detail shot 1" />

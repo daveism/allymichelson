@@ -9,7 +9,7 @@ medium: "Medium"
 dimensions: "1x1"
 showImage: true
 featured: true
-order: 1
+order: 7
 ---
 
 

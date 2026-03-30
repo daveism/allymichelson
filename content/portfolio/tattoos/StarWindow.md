@@ -9,7 +9,7 @@ medium: "Black and Grey Ink"
 dimensions: ""
 showImage: true
 featured: true
-order: 1
+order: 12
 ---
 
 <div class="image-row cols-1">

@@ -9,7 +9,7 @@ medium: "Black and Grey Ink"
 dimensions: "3 in x 1 in"
 showImage: true
 featured: true
-order: 1
+order: 13
 ---
 <div class="image-row cols-1">
   <img src="/images/Tattoos/Geometric1.jpg" alt="Detail shot 1" />

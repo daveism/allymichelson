@@ -9,7 +9,7 @@ medium: "Black and Grey Ink"
 dimensions: "27 in x 36 in"
 showImage: true
 featured: true
-order: 1
+order: 2
 ---
 
 
