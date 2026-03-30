@@ -4,7 +4,7 @@ description: ""
 image: "/images/3d/3d-07.jpg"
 category: "3d"
 tags: []
-date: "2024
+date: "2024"
 medium: "Liver of sulfur on copper and brass"
 dimensions: ""
 showImage: true
