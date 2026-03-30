@@ -1,7 +1,7 @@
 ---
 title: "Ants"
 description: ""
-image: "/images/tattoos/Ants1.jpg"
+image: "/images/Tattoos/Ants1.jpg"
 category: "tattoos"
 tags: []
 date: ""
@@ -14,7 +14,7 @@ order: 1
 
 
 <div class="image-row cols-1">
-  <img src="/images/tattoos/Ants2.jpg" alt="Detail shot 1" />
+  <img src="/images/Tattoos/Ants2.jpg" alt="Detail shot 1" />
 </div>
 
 <!-- ## Process example s-->

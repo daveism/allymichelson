@@ -15,14 +15,14 @@ order: 5
 <div class="image-row cols-2">
   <img src="/images/3d/frame1.png" alt="Detail shot 1" />
   <img src="/images/3d/frame2.png" alt="Detail shot 2" />
-  </div>
+</div>
 
-  <div class="image-row cols-2">
+<div class="image-row cols-2">
   <img src="/images/3d/frame3.png" alt="Detail shot 3" />
   <img src="/images/3d/frame4.png" alt="Detail shot 4" />
-  </div>
+</div>
 
-  <div class="image-row cols-2">
+<div class="image-row cols-2">
   <img src="/images/3d/frame5.png" alt="Detail shot 5" />
   <img src="/images/3d/frame6.png" alt="Detail shot 6" />
-  </div>
+</div>

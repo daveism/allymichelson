@@ -1,7 +1,7 @@
 ---
 title: "Mushrooms"
 description: ""
-image: "/images/tattoos/DaveBolete3--edit.jpg"
+image: "/images/Tattoos/DaveBolete3--edit.jpg"
 category: "tattoos"
 tags: []
 date: ""
@@ -14,9 +14,9 @@ order: 1
 
 
 <div class="image-row cols-1">
-  <img src="/images/tattoos/DaveChantrelle.jpg" alt="Detail shot 1" />
-  <img src="/images/tattoos/DaveInky1--edit.jpg" alt="Detail shot 2" />
-  <img src="/images/tattoos/DaveMyceliumzoom.jpg" alt="Detail shot 3" />
+  <img src="/images/Tattoos/DaveChantrelle.jpg" alt="Detail shot 1" />
+  <img src="/images/Tattoos/DaveInky1--edit.jpg" alt="Detail shot 2" />
+  <img src="/images/Tattoos/DaveMyceliumzoom.jpg" alt="Detail shot 3" />
 </div>
 
 <!-- ## Process example s-->
