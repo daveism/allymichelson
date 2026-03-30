@@ -12,7 +12,7 @@ featured: true
 order: 1
 ---
 
-
+ 
 <!-- ## Process example s-->
 
 <!-- This piece started as a series of rough sketches exploring organic forms. The goal was to capture movement and texture through layered mark-making.
