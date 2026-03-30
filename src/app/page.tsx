@@ -21,8 +21,14 @@ export default function HomePage() {
         </div>
         <div className="relative z-10 text-center px-8">
           <h1 className="font-heading text-5xl md:text-7xl text-white mb-4">{site.title}</h1>
-          <p className="font-accent text-sm md:text-base text-white/70 tracking-[0.3em] uppercase">
-            2D &middot; 3D &middot; Digital &middot; Tattoos
+          <p className="font-accent text-sm md:text-base tracking-[0.3em] uppercase">
+            <Link href="/portfolio/2d" className="text-white/70 hover:text-white no-underline transition-colors">2D</Link>
+            {' '}&middot;{' '}
+            <Link href="/portfolio/3d" className="text-white/70 hover:text-white no-underline transition-colors">3D</Link>
+            {' '}&middot;{' '}
+            <Link href="/portfolio/digital" className="text-white/70 hover:text-white no-underline transition-colors">Digital</Link>
+            {' '}&middot;{' '}
+            <Link href="/portfolio/tattoos" className="text-white/70 hover:text-white no-underline transition-colors">Tattoos</Link>
           </p>
           <div className="mt-6 w-24 h-0.5 mx-auto bg-gradient-to-r from-accent-primary via-accent-tertiary to-accent-secondary rounded" />
         </div>
