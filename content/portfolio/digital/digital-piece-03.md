@@ -1,11 +1,11 @@
 ---
-title: ""
+title: "Stuck"
 description: ""
 image: "/images/digital/digital-03.jpg"
 category: "digital"
 tags: []
-date: "2026-02-21"
-medium: ""
+date: "2022"
+medium: "Digital art on Adobe Illustrator "
 dimensions: ""
 showImage: true
 featured: false
