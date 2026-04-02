@@ -6,7 +6,7 @@ category: "3d"
 tags: []
 date: "2024"
 medium: "Resin print"
-dimensions: ""
+dimensions: "6.4 in x 1.5 in x 3 in"
 showImage: true
 featured: true
 order: 11

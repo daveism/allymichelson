@@ -6,7 +6,7 @@ category: "3d"
 tags: []
 date: "2024"
 medium: "Basswood and stainless steel hinges"
-dimensions: ""
+dimensions: "6.25 in x 5.5 in x 8 in"
 showImage: true
 featured: true
 order: 5

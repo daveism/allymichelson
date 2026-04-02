@@ -6,7 +6,7 @@ category: "3d"
 tags: []
 date: "2026-02-21"
 medium: "Liver of sufur patina on copper and nickel"
-dimensions: ""
+dimensions: "2.75 in x 4in x 1.25 in"
 showImage: true
 featured: true
 order: 9

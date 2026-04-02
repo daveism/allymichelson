@@ -6,7 +6,7 @@ category: "3d"
 tags: []
 date: "2024"
 medium: "Liver of sulfur on cast bronze and copper"
-dimensions: ""
+dimensions: "17.25 in x 3 in x 0.5 in"
 showImage: true
 featured: true
 order: 8
