@@ -6,7 +6,7 @@ category: "3d"
 tags: []
 date: "2025"
 medium: "3D print and acrylic paint on canvas"
-dimensions: ""
+dimensions: "6.5 in x 4 in x 6 in"
 showImage: true
 featured: true
 order: 4
